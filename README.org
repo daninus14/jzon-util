@@ -33,3 +33,5 @@ To check if a slot is sensitve do =sensitive-slot-value= on a given slot.
 #+END_SRC
 
 Notice that the second time, the secret was not encoded in the json.
+
+* TODO TODO make this depends on cl-sensitive and remove the duplicated code
