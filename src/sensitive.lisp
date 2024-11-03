@@ -1,4 +1,4 @@
-(in-package #:jzon-util)
+(in-package :jzon-util)
 
 (defgeneric sensitive-slot-value (given-object))
 (defmethod sensitive-slot-value (given-object) NIL)
