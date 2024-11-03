@@ -1,0 +1,8 @@
+("quicklisp" .
+ (:class qlot/source/dist:source-dist
+  :initargs (:distribution "https://beta.quicklisp.org/dist/quicklisp.txt" :%version :latest)
+  :version "2024-10-12"))
+("jzon" .
+ (:class qlot/source/github:source-github
+  :initargs (:repos "daninus14/jzon" :ref nil :branch "metaclass-extensibility" :tag nil)
+  :version "github-b7fb3b97549957de27692c64871999c4cbd27d94"))
