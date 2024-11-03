@@ -1,0 +1,9 @@
+* jzon-util
+
+These are utilities for using com.inuoe.jzon
+
+* Functionality
+** =sensitive-metaclass=
+This provides a slot option called =:sensitve= which will make that slot not be json encoded.
+
+To check if a slot is sensitve do =sensitive-slot-value= on a given slot.
