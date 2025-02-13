@@ -7,5 +7,8 @@
   :components ((:module "src"
                 :components
                 ((:file "packages")
+                 (:file "metaclass-specializers")
+                 (:file "case-from-cljson")
+                 (:file "camel-case")
                  (:file "sensitive"))))
   :description "Utilities for com.inuoe.jzon")
